@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Quiz Application{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <h1 class="js-title">Quiz Taker</h1>
+                <h6 class="js-question-number">Question 1 of 15:</h5>
+            </div>
+            <div class="col-md-3">
+                <h1 class="js-clock text-right">1:30</h1>
+            </div>
+        </div>
+
+        <h1 class="js-question lead question"></h1>
+        <div class="js-answers"></div>
+    </div>
+{% endblock %}

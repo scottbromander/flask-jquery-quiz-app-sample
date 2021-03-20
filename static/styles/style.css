@@ -1,0 +1,23 @@
+body {
+  padding-top: 30px;
+}
+
+.question {
+  font-size: xx-large;
+  white-space: normal;
+}
+
+.btn {
+  white-space: normal;
+}
+
+.question-btn {
+  margin: 10px 0px;
+  width: 100%;
+  text-align: left;
+}
+
+.question-btn p {
+  padding-top: 15px;
+  font-weight: 700;
+}
